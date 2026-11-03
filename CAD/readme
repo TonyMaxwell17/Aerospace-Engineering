@@ -1,0 +1,14 @@
+# CAD
+
+## Overview
+This directory stores 3D CAD models, assembly files and engineering drawings created during the Aerospace Engineering undergraduate studies at UNNC. All files are built for coursework assignments, design projects and laboratory practice, covering aerospace component modelling, structural design and assembly verification.
+
+## Software & File Formats
+All primary design files are created with **SolidWorks**, the core CAD tool used across the programme's design modules.
+- Native formats: `.sldprt` (part files), `.sldasm` (assembly files), `.slddrw` (engineering drawing files)
+- Universal interchange formats: selected models are also exported as STEP/STP files for cross-version and cross-platform compatibility
+
+## Usage Notes
+- Models are developed and tested on SolidWorks 2023–2024. Files saved in newer versions may not open correctly on older releases; using the exported STEP files is recommended for compatibility.
+- All large binary files are managed via Git LFS to optimise repository size.
+- All design files are shared for learning and reference only. Please comply with UNNC academic integrity policies and complete design assignments independently.
